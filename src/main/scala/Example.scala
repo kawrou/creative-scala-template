@@ -40,9 +40,8 @@ object Example {
   val frame = Frame.default.withSize(600, 600).withCenterAtOrigin
 
   @main def go(): Unit = {
-    image.draw()
-
+    // image.draw()
     // Comment out the above and uncomment the below to display the animation
-    // animation.run(frame)
+    animation.run(frame)
   }
 }
